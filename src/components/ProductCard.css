@@ -1,0 +1,93 @@
+.productCard {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgb(0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+}
+
+.productCard img {
+  height: 250px;
+  max-width: 100%;
+  margin: 10px 0px;
+}
+
+.productCard .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.productCard .name {
+  margin: 10px 0px;
+  font-size: large;
+}
+
+.productCard .action p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.productCard .remove {
+  background-color: #e24821;
+  border-radius: 5px;
+  box-shadow: rgba(228, 69, 20, 0.2) 0 -25px 18px -14px inset,
+    rgba(235, 86, 27, 0.15) 0 1px 2px, rgba(230, 62, 33, 0.15) 0 2px 4px,
+    rgba(228, 83, 26, 0.15) 0 4px 8px, rgba(219, 70, 24, 0.15) 0 8px 16px,
+    rgba(219, 65, 27, 0.15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.productCard .remove:hover {
+  box-shadow: rgba(221, 54, 25, 0.35) 0 -25px 18px -14px inset,
+    rgba(212, 71, 15, 0.25) 0 1px 2px, rgba(218, 13, 13, 0.25) 0 2px 4px,
+    rgba(223, 60, 19, 0.25) 0 4px 8px, rgba(211, 64, 27, 0.25) 0 8px 16px,
+    rgba(219, 69, 31, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.button-33 {
+  background-color: #1ab82f;
+  border-radius: 5px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(76, 194, 121, 0.35) 0 -25px 18px -14px inset,
+    rgba(48, 141, 84, 0.25) 0 1px 2px, rgba(25, 109, 57, 0.25) 0 2px 4px,
+    rgba(41, 136, 77, 0.25) 0 4px 8px, rgba(43, 109, 68, 0.25) 0 8px 16px,
+    rgba(27, 95, 53, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
